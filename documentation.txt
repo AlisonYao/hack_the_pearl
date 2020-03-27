@@ -1,0 +1,15 @@
+PAT Hackers (Phoebe, Yuhan, Xiaoyan)
+
+We used Professor Enric's code as the basis of our model. We modified his code through methods such as adding functions in order to make the code run and print out results.
+
+Then, we added the following numerical and categorical data to make the model more precise:
+1.age
+2.Gender
+3.Salary
+4.Number_Children
+5.NationCode
+6.PBK_Ind
+7.HIB_Status
+For example, adding age and gender to the model raises its precision because those are important sociodemographic variables that affect the probability that people will purchase investment products.
+
+Finally, we calculated the probability that each customer will purchase the product in the future and printed all the customer IDs corresponding to the customers with a probability of over .5 to buy an investment product in the future.
